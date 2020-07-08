@@ -1,0 +1,76 @@
+/* always initialize margin, paddingm font-family and font-size in the body */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.title-header {
+	margin-bottom: 0;
+	text-align: center;
+}
+.title-header p {
+	font-size: 1rem;
+}
+.navbar-text, .navbar-nav {
+	font-size: 1rem;
+}
+.badge {
+	padding: 10px;
+	color: white;
+}
+
+
+
+.my-skills {
+	margin-top: 10px;
+}
+.css-logo, .js-logo {
+	height: 20rem;
+	width: 15rem;
+}
+.card-text {
+	font-size: 1rem;
+}
+
+
+.who-am-i {
+	margin-top: 2rem;
+}
+.who-am-i p {
+	font-size: 1rem;
+}
+
+
+
+.python-container {
+	margin-top: 10px;
+}
+.python-container img {
+	max-width: 300px;
+}
+
+.list-group {
+	font-size: 1rem;
+}
+.works p {
+	font-size: 1rem;
+}
+
+.about p {
+	font-size: 1rem;
+	padding-bottom: 0;
+}
+.about img {
+	margin-top: 0;
+	padding-top: 0;
+}
+.about {
+	padding: 10px;
+	background-color: rgba(234, 234, 225, 0.4);
+	border-radius: 50%;
+}
+.fa-arrow-circle-down {
+	font-size: 2rem;
+}
+
