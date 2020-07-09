@@ -3,7 +3,7 @@
 <head>
 
 	<title>Software and Web Developer - Dagison</title>
-	<link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/ogw/ADGmqu_qMPY6d_BShEnwbDP8zSi5Efl1hpKEX-Lhj7vP=s32-c-mo">
+	<link rel="icon" type="image/png" href="icons/dagison-icon-ver1.png">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -11,18 +11,19 @@
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	<!-- external css -->
-	<link rel="stylesheet" href="master.css">
-	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
 
 </head>
 
 <body>
 	<div class="jumbotron title-header">
-		<h1>IT'S YA BOI</h1>
-		<p>dAgisON dEvelOping wEbsites madafUkaS</p>
+		<h1>WELCOME</h1>
+		<p>Are you <b>looking</b> for a <b>developer</b>? Well, you ARE in the RIGHT website! This is created for people to <b>aspire</b> to be <b>inspired</b> by the limitless imagination of humans before we <b>expire</b> in this world.</p>
 	</div>
 
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top">
 
 	<button class="navbar-toggler my-menu-container" data-toggle="collapse" data-target="#collapse_target">
 		<span class="badge my-menu"><i class="fa fa-bars"></i>&nbsp;MENU</span>
@@ -30,9 +31,7 @@
 	</button>
 
 	<div class="collapse navbar-collapse" id="collapse_target">
-		<a class="navbar-brand"><img src="https://lh3.googleusercontent.com/ogw/ADGmqu_qMPY6d_BShEnwbDP8zSi5Efl1hpKEX-Lhj7vP=s32-c-mo" alt=""></a>
-
-		<span class="navbar-text">| Dagison |</span>
+		<a class="navbar-brand" href="#"><img src="icons/dagison-new-ver4.png" alt=""></a>
 		
 		<ul class="navbar-nav">
 
@@ -44,30 +43,30 @@
 
 				<div class="dropdown-menu" aria-labelledby="dropdown_target">
 				<ul class="navbar-nav">
-					<a class="dropdown-item" href="">HTML</a>
+					<a class="dropdown-item" href="#html">HTML</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="">CSS</a>
+					<a class="dropdown-item" href="#css">CSS</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="">JS</a>
+					<a class="dropdown-item" href="#js">JS</a>
 				</ul>
 				</div>
 			</li>
 
 
 			<li class="nav-item">
-				<a class="nav-link" href="#">Frameworks Arsenal</a>
+				<a class="nav-link" href="#frameworks-arsenal">Frameworks Arsenal</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Achievements</a>
+				<a class="nav-link" href="#achievements">Achievements</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Works</a>
+				<a class="nav-link" href="#works">Works</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
+				<a class="nav-link" href="#about">About</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contact Us</a>
+				<a class="nav-link" href="#contact-us">Contact Us</a>
 			</li>
 		</ul>
 
@@ -77,17 +76,27 @@
 
 
 
-	<img src="backgrounds/linux.jpg" alt="" class="img-fluid">
+	<div class="container text-center my-icon">
+		<img src="icons/dagison-icon-ver1.png" class="img-fluid" alt="">
+		<h1>Dagison</h1>
+		<h4><b>Front-end</b> Web Developer</h4>
+		<h5><b>Student</b></h5>
+		<h6>Software Engineering <b>Aspirant</b></h6>
+	</div>
+
+	<hr class="w-100">
 
 	<div class="container my-skills">
-
+		
 		<h1 class="text-center my-skills-title">WHAT DO I USE?</h1>
+		<p class="text-center">(click the icons to see the animation)</p>
 
 		<div class="card-deck text-center">
 
+			<a name="html"></a>
 			<div class="card bg-light">
 				<div class="card-body">
-					<img src="logos/html5-logo.png" class="card-img-top html-logo" alt="">
+					<img src="logos/html5-logo.png" class="card-img-top" alt="">
 					<h3 class="card-title">Hyper Text Markup Language</h3>
 					<p class="card-text text-justify">
 					Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
@@ -98,9 +107,10 @@
 				</div>
 			</div>
 
+			<a name="css"></a>
 			<div class="card bg-light">
 				<div class="card-body">
-					<img src="logos/css3-logo.png" class="card-img-top css-logo" alt="">
+					<img src="logos/css3-logo.png" class="card-img-top" alt="">
 					<h3 class="card-title">Cascading Style Sheets</h3>
 					<p class="card-text text-justify">
 					Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
@@ -111,9 +121,10 @@
 				</div>
 			</div>
 
+			<a name="js"></a>
 			<div class="card bg-light">
 				<div class="card-body">
-					<img src="logos/js-logo.png" class="card-img-top js-logo" alt="">
+					<img src="logos/js-logo.png" class="card-img-top" alt="">
 					<h3 class="card-title">JavaScript</h3>
 					<p class="card-text text-justify">
 					JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
@@ -133,7 +144,7 @@
 	<div class="jumbotron who-am-i">
 		<h1>Who Am I?</h1>
 		<p class="text-justify">
-			Hi, my name is <b>John</b>. I'm a college student from Polytechnic University of the Philippines and also a self-educated developer. I currently reside in Manila, Philippines. I create things from my imagination and make it a reality, just like in <b>WEBSITES</b> and <b>SOFTWARE</b>. I'm not a major in IT/CS, but it is my hobby to do things like this, call it a <b>PASSION</b> in my stead. I currently develop and focus on <b>front-end</b> web development using HTML, CSS and JavaScript and still learning about the <b><i>back-end</i></b> and <b><i>server side</i></b>. If you have any concern, please do not hesitate to read and check my details below.
+			Hi, my name is John, but you can call me <b>Dagison</b>. I'm a college student from Polytechnic University of the Philippines and also a self-educated developer. I currently reside in Manila, Philippines. I create things from my imagination and make it a reality, just like in <b>WEBSITES</b> and <b>SOFTWARE</b>. I'm not a major in IT/CS, but it is my hobby to do things like this, call it a <b>PASSION</b> in my stead. I currently develop and focus on <b>front-end</b> web development using HTML, CSS and JavaScript and still learning about the <b><i>back-end</i></b> and <b><i>server side</i></b>. If you have any concern, please do not hesitate to read and check my details below.
 		</p>
 	</div>
 
@@ -141,7 +152,9 @@
 
 	<div class="container frameworks-arsenal">
 
+		<a name="frameworks-arsenal"></a>
 		<h1 class="text-center">MY FRAMEWORKS ARSENAL</h1>
+		<p class="text-center">(click the icons to see the animation)</p>
 
 		<div class="card-deck text-center">
 
@@ -188,6 +201,8 @@
 
 
 	<div class="container achievements">
+
+	 <a name="achievements"></a>
 	 <h2>Achievements and Certifications</h2>
 	 <ul class="list-group">
 	 	<a href="" class="list-group-item">Digital Marketing | Google</a>
@@ -202,6 +217,8 @@
 
 
 	<div class="container works">
+
+		<a name="works"></a>
 		<h2>Works</h2>
 		<p>Check out my different projects on the following websites:</p>
 
@@ -219,13 +236,46 @@
 
 
 	<div class="container about text-center">
+
+		<a name="about"></a>
 		<h2>About</h2>
-		<p>Learn more about me 
+		<p>
+		Learn more about me
 
 		<br>
 
-		<a href=""><i class="fa fa-arrow-circle-down"></i></a>
-		</p>
+		<button type="button" class="btn" data-toggle="modal" data-target="#myModal">
+		<i class="fa fa-arrow-circle-down"></i>
+		</button>
+		
+
+		</p> 
+
+		<!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">I suck at coding...</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         	But I always do my best!!
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Hooray!</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
 
 		<img src="backgrounds/me-avatar.png" class="img-fluid" alt="">
 
@@ -235,7 +285,9 @@
 
 
 	<!-- Footer -->
-<footer class="page-footer pt-4 bg-dark">
+<footer class="page-footer pt-4">
+
+	<a name="contact-us"></a>
 
     <!-- Footer Links -->
     <div class="container-fluid text-md-left">
@@ -247,7 +299,7 @@
         <div class="col-md-6 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase">Contact us</h5>
+          <h5 class="text-uppercase"><b>Contact us</b></h5>
           <p>
           	<a href=""><i class="fa fa-facebook"></i></a>
           	<a href=""><i class="fa fa-github"></i></a>
@@ -257,9 +309,11 @@
 
           <label for="user">Enter your e-mail <i>(be subscribed to our newsletter and get updates)</i></label>
           <div class="form-group text-center">      	
-          	<input type="text" class="form-control" id="user" placeholder="yourexample@domain.com">
+          	<input type="email" class="form-control" id="user" placeholder="yourname@domain.com" required>
           	<button type="button" class="btn btn-primary">Submit</button>
           </div>
+
+          <a href="#">Back to the top</a>
 
         </div>
         <!-- Grid column -->
@@ -267,21 +321,24 @@
         <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 first-links text-center">
+        <div class="col-md-3 mb-md-0 mb-3 first-links">
 
             <!-- Links -->
             <h5 class="text-uppercase"><b>What i use</b></h5>
 
             <ul class="list-unstyled">
               <li>
-                <a href="#!">HTML</a>
+                <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
               </li>
+              <hr class="w-100 bg-white">
               <li>
-                <a href="#!">CSS</a>
+                <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
               </li>
+              <hr class="w-100 bg-white">
               <li>
-                <a href="#!">JS</a>
+                <a href="https://www.w3schools.com/js/" target="_blank">JS</a>
               </li>
+              <hr class="w-100 bg-white">
             </ul>
             <p class=""><i>Learn the basics</i></p>
             <p class=""><i>"Start now."</i></p>
@@ -289,26 +346,30 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3 second-links text-center">
+          <div class="col-md-3 mb-md-0 mb-3 second-links">
 
             <!-- Links -->
             <h5 class="text-uppercase"><b>My Frameworks Arsenal</b></h5>
 
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Bootstrap</a>
+                <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
               </li>
+              <hr class="w-100 bg-white">
               <li>
-                <a href="#!">Materialize</a>
+                <a href="https://materializecss.com/" target="_blank">Materialize</a>
               </li>
+              <hr class="w-100 bg-white">
               <li>
-                <a href="#!">ReactJS</a>
+                <a href="https://reactjs.org/" target="_blank">ReactJS</a>
               </li>
+              <hr class="w-100 bg-white">
               <li>
-                <a href="#!">VueJS</a>
+                <a href="https://vuejs.org/" target="_blank">VueJS</a>
               </li>
+              <hr class="w-100 bg-white">
             </ul>
-            <p class=""><i>CSS and JS Frameworks</i></p>
+            <p class=""><i>Check out the CSS and JS Frameworks</i></p>
           </div>
           <!-- Grid column -->
 
@@ -320,7 +381,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="">John Damage</a>
+      <a href="#">Dagison</a>
     </div>
     <!-- Copyright -->
 
@@ -328,11 +389,10 @@
   <!-- Footer -->
 
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,0 +1,130 @@
+/* always initialize margin, paddingm font-family and font-size in the body */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.title-header {
+	margin-bottom: 0;
+	background-color: rgba(51, 51, 51, 0.04);
+}
+.title-header p {
+	font-size: 1rem;
+}
+.navbar {
+	background-color: rgb(128, 0, 0, 0.9);
+}
+.navbar-brand img {
+	width: 8rem;
+}
+.navbar-text, .navbar-nav {
+	font-size: 1rem;
+}
+.nav-link {
+	font-weight: bold;
+	color: white;
+}
+.dropdown-menu {
+	background-color: rgb(242, 242, 242);
+}
+.badge {
+	padding: 10px;
+	color: white;
+}
+
+.my-icon {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.my-icon img {
+	border-radius: 50%;
+}
+
+
+
+.my-skills {
+	margin-top: 2rem;
+}
+.my-skills p {
+	font-size: 1rem;
+	font-style: italic;
+}
+.my-skills img {
+	width: 15rem;
+	transition: 0.7s;
+	border: 1rem outset;
+	padding: 1rem;
+}
+.my-skills img:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+.card-text {
+	font-size: 1rem;
+}
+
+
+
+.who-am-i {
+	margin-top: 2rem;
+}
+.who-am-i p {
+	font-size: 1rem;
+}
+
+
+
+.frameworks-arsenal p {
+	font-size: 1rem;
+	font-style: italic;
+}
+.frameworks-arsenal img {
+	width: 13rem;
+	transition: 0.9s;
+}
+.frameworks-arsenal img:hover {
+	border: 1rem outset;
+}
+
+
+
+.python-container {
+	margin-top: 2rem;
+}
+.python-container img {
+	max-width: 20rem;
+}
+
+
+
+.list-group {
+	font-size: 1rem;
+}
+.works p {
+	font-size: 1rem;
+}
+.works img {
+	margin: 2rem;
+	width: 18rem;
+}
+
+
+
+.about p {
+	font-size: 1rem;
+	padding-bottom: 0;
+}
+.about img {
+	margin-top: 0;
+	padding-top: 0;
+}
+.about {
+	padding: 10px;
+	background-color: rgba(234, 234, 225, 0.4);
+	border-radius: 50%;
+}
+.fa-arrow-circle-down {
+	font-size: 2.5rem;
+	color: maroon;
+}
+
